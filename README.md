@@ -3,6 +3,8 @@
 On macOS all fonts are nice but on Windows 10 VM running on macOS they are broken.
 Tested with rust `1.79.0`.
 
+https://github.com/rerun-io/rerun/issues/7177
+
 ![Alt text](./rerunwin.jpg)
 
 ## Run
