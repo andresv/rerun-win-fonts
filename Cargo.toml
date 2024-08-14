@@ -1,0 +1,19 @@
+[package]
+name = "winrerun"
+authors = ["Andres Vahter <andres@vahter.me>"]
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.9"
+eframe = { version = "0.28", features = ["persistence"] }
+rerun = "0.17"
+re_viewer = { version = "0.17" }
+re_crash_handler = "0.17"
+re_sdk_comms = { version = "0.17", features = ["server"] }
+# mimalloc is a much faster allocator
+mimalloc = "0.1"
